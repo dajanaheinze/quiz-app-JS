@@ -59,8 +59,6 @@ naviProfile.addEventListener('click', () => {
     mainProfile.classList.remove('d-none')
 })
 
-/* Bookmark Toggle */
-
 
 
 
