@@ -1,3 +1,4 @@
+console.clear()
 
 const headerHome = document.querySelector('[data-js=header-home]')
 console.log(headerHome)
@@ -59,6 +60,21 @@ naviProfile.addEventListener('click', () => {
     mainProfile.classList.remove('d-none')
 })
 
+/* Bookmarkt Toggle */
 
+const bookmarkIcon = document.querySelector('[data-js=bookmark-icon]')
 
+bookmarkIcon.addEventListener('click', ()=> {
+bookmarkIcon.classList.toggle('card__bookmark-icon--active')
 
+})
+
+/* Answer Card Toggle */
+
+const btnShowAnswer = document.querySelector('[data-js=show-answer]')
+const answer = document.querySelector('[data-js=text-answer]')
+
+btnShowAnswer.addEventListener('click', ()=> {
+    answer.classList.toggle('d-none')
+
+})
