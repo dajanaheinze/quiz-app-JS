@@ -60,7 +60,7 @@ naviProfile.addEventListener('click', () => {
     mainProfile.classList.remove('d-none')
 })
 
-/* Bookmarkt Toggle */
+/* Toggle Bookmarkt */
 
 const bookmarkIcon = document.querySelector('[data-js=bookmark-icon]')
 
@@ -69,7 +69,7 @@ bookmarkIcon.classList.toggle('card__bookmark-icon--active')
 
 })
 
-/* Answer Card Toggle */
+/* Toggle Answer Card */
 
 const btnShowAnswer = document.querySelector('[data-js=show-answer]')
 const answer = document.querySelector('[data-js=text-answer]')
@@ -77,4 +77,12 @@ const answer = document.querySelector('[data-js=text-answer]')
 btnShowAnswer.addEventListener('click', ()=> {
     answer.classList.toggle('d-none')
 
+})
+/* Clear Form */
+
+const btnSubmit = document.querySelector('[data-js=clear-button]')
+const clearForm = document.querySelector('[data-js=clear-form]')
+
+btnSubmit.addEventListener('click', ()=> {
+    clearForm.classList.reset('[data-js=clear-form]')
 })
