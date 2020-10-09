@@ -1,7 +1,6 @@
-console.clear()
+
 
 const headerHome = document.querySelector('[data-js=header-home]')
-console.log(headerHome)
 const headerBookmarks = document.querySelector('[data-js=header-bookmarks]')
 const headerCreate = document.querySelector('[data-js=header-create]')
 const headerProfile = document.querySelector('[data-js=header-profile]')

@@ -1,13 +1,13 @@
 :root {
   /* === Colors === */
-  --primary: #7ed174;
-  --gradient: #1a581388;
-  --background: #7dd17459;
-  --bookmark-icon: #28941c;
-  --bookmark-icon--filling: #c4eec0;
+  --primary: #b1bfca;
+  --gradient: #ECEFF1;
+  --background: #ECEFF1;
+  --bookmark-icon: #b1bfca;
+  --bookmark-icon--filling: #CFD8DC;
 
   --text-color1: #0a0a0ade;
-  --text-color2: #fbfff2;
+  --text-color2: #424242;
   --shadow: #888888;
 
   /* === Paddings === */
