@@ -1,7 +1,8 @@
-:root {
-  /* === Colors === */
+
+.lightmode {
   --primary: #b1bfca;
   --gradient: #ECEFF1;
+  --background-main: #ffffff;
   --background: #ECEFF1;
   --bookmark-icon: #b1bfca;
   --bookmark-icon--filling: #CFD8DC;
@@ -9,6 +10,19 @@
   --text-color1: #0a0a0ade;
   --text-color2: #424242;
   --shadow: #888888;
+}
 
-  /* === Paddings === */
+.darkmode {
+  --primary: #b1bfca;
+  --gradient: #6d6d6d;
+  --background-main: #1b1b1b;
+  --background: #6d6d6d;
+  --bookmark-icon: #b1bfca;
+  --bookmark-icon--filling: #CFD8DC;
+
+  --text-color1: #0a0a0ade;
+  --text-color2: #424242;
+  --shadow: #888888;
+}
+
 }
