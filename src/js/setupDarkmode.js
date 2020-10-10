@@ -14,4 +14,4 @@ export default function setupDarkmode() {
         body.classList.toggle('lightmode', oldText === 'darkmode')
 
     }   
-}
+} 
