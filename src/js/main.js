@@ -5,6 +5,6 @@ import setupDarkmode from  './setupDarkmode'
 
 setupCards()
 setupNavigation()
-setupDarkmode ()
+setupDarkmode()
 //setupForm()
 
